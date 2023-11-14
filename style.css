@@ -1,0 +1,122 @@
+body {
+    background-image: url('./img/Fondo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.title{
+    text-align: center;
+    color: #F2668B;
+    padding: 10px;
+    font-size: 50px;
+    margin-top: 20px;
+}
+.section{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 8px;
+}
+.section1{
+    border: 1px solid #fbff00;
+    border-radius: 8px;
+}
+.texto1 {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+    color: blueviolet;
+}
+
+.button{
+    align-items: center;
+    display: flex;
+    padding: 20px;
+}
+
+#botonConvertidor{
+    background-color: #F2668B;
+    color: blueviolet;
+}
+
+.section2{
+    border: 1px solid #fbff00;
+    border-radius: 8px;
+}
+
+.texto2{
+    display: flex;
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    justify-content: center;
+    color: #F2668B;
+    
+}
+
+
+
+@media (min-width: 769px) {
+    body {
+        background-image: url('./img/Fondo.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    
+    .title{
+        text-align: center;
+        margin: 40px;
+        color: #fbff00;
+        padding: 30px;
+        font-size: 100px;
+    }
+    .section{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 80px;
+        border-radius: 8px;
+    }
+    .section1{
+        border: 1px solid #fbff00;
+        border-radius: 8px;
+    }
+    .texto1 {
+        width: 300px;
+        height: 300px;
+        padding: 10px;
+        color: blueviolet;
+        
+    }
+    
+    .button{
+        align-items: center;
+        display: flex;
+        padding: 10px;
+        color: blueviolet;
+    }
+    
+    #botonConvertidor{
+        background-color: #fbff00;
+    }
+
+    .section2{
+        border: 1px solid;
+        margin-right: 80px;
+        border-radius: 8px;
+        
+    }
+
+    .texto2{
+        padding: 10px;
+        width: 300px;
+        height: 300px;
+       color: #F2668B;
+        
+    }
+    
+}
